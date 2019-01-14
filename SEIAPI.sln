@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEIAPI", "SEIAPI\SEIAPI.csproj", "{DC3B1AAD-88D9-480F-9DFD-763813C98989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEIAPI", "SEIAPI\SEIAPI.csproj", "{DC3B1AAD-88D9-480F-9DFD-763813C98989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEIAPI.Tests", "SEIAPI.Tests\SEIAPI.Tests.csproj", "{D708894D-9D3F-4B2E-AFAC-2B0F9F40A88F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DC3B1AAD-88D9-480F-9DFD-763813C98989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC3B1AAD-88D9-480F-9DFD-763813C98989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC3B1AAD-88D9-480F-9DFD-763813C98989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D708894D-9D3F-4B2E-AFAC-2B0F9F40A88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D708894D-9D3F-4B2E-AFAC-2B0F9F40A88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D708894D-9D3F-4B2E-AFAC-2B0F9F40A88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D708894D-9D3F-4B2E-AFAC-2B0F9F40A88F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
