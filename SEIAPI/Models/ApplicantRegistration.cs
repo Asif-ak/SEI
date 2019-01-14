@@ -26,6 +26,8 @@ namespace SEIAPI.Models
         [Required,DataType(DataType.Date)]
         public string DOB { get; set; }
 
+        public LoginCredentials LoginCredential { get; set; }
+
         //public string CNICHash
         //{
         //    get
@@ -62,5 +64,7 @@ namespace SEIAPI.Models
         public string PasswordHash { get; set; }
         public byte[] QRCode { get; set; }
         public byte[] ImageBytes { get; set; }
+        public int RegistrationID { get; set; }
+        public ApplicantRegistration Registration { get; set; }
     }
 }

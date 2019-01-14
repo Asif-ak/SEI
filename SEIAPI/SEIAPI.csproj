@@ -11,9 +11,4 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DbConfiguration\" />
-    <Folder Include="Tests\" />
-  </ItemGroup>
-
 </Project>
